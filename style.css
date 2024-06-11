@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.certificates {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.certificates li {
+  margin-bottom: 10px;
+}
+
+.certificates a {
+  text-decoration: none;
+}
+
+.certificates a:hover {
+  color: #00698f;
+}
+
+.language, .extracurricular, .skills {
+  margin-top: 20px;
+}
+
+.language ul, .extracurricular ul, .skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.language li, .extracurricular li, .skills li {
+  margin-bottom: 10px;
+}
+
+#cert1, #cert2, #cert3 {
+  display: none;
+}
